@@ -1,7 +1,7 @@
 ### Django ORM cookbook
 
 
-Django ORM cookbook是一奔如何使用Django ORM的系列食谱。本书由50个"如何使用Django ORM/查询集/模型实现X"形式的问题组成。
+Django ORM cookbook是一套如何使用Django ORM的系列食谱。本书由50个"如何使用Django ORM/查询集/模型实现X"形式的问题组成。
 
 原书链接：http://books.agiliq.com/projects/django-orm-cookbook/en/latest/
 
