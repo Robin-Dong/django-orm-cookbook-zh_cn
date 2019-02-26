@@ -1,4 +1,4 @@
-如何在Django orm中使用 OR 查询？
+如何在Django ORM中使用 OR 查询？
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. image:: usertable.png
