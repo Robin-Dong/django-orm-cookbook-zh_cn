@@ -13,9 +13,6 @@ Django 提供了两个选项。
 - :code:`queryset_1 | queryset_2`
 - :code:`filter(Q(<condition_1>)|Q(<condition_2>)`
 
-- :code:`queryset_1 | queryset_2`
-- :code:`filter(Q(<condition_1>)|Q(<condition_2>)`
-
 详细查询语句
 -----------------------
 
