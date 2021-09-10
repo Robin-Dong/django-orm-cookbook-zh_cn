@@ -7,7 +7,7 @@ Django 有 :code:`Lower` ,  :code:`Coalesce` 和 :code:`Max` 等函数，但它�
 Django 提供了 :code:`Func` 函数，它可以允许你任意使用甚至Django没有提供的数据库函数。
 
 
-Postgres 有个 :code:`fuzzystrmatch` 模块，它提供了几种确定相似性的函数。使用 :code:`create extension fuzzystrmatch`在你的postgres数据库上安装这个插件。
+Postgres 有个 :code:`fuzzystrmatch` 模块，它提供了几种确定相似性的函数。使用 :code:`create extension fuzzystrmatch` 在你的postgres数据库上安装这个插件。
 
 
 我们将使用 :code:`levenshtein` 函数。先让我们创建一些Hero对象吧。

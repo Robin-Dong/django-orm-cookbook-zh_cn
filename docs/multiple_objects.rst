@@ -6,7 +6,7 @@
 
 示例如下。
 
-.. code-block:: :python
+.. code-block:: python
 
     >>> Category.objects.all().count()
     2

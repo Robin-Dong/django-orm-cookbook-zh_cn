@@ -55,19 +55,21 @@
 
 
 
-我们使用 :code:`ForeignKey` 和 :code:`PositiveIntegerField` 在 :code:`FlexCategory` 添加了 :code:`GenericForeignKey` ，然后在你想要类别化的模型上添加了 :code:`GenericRelation 。
+我们使用 :code:`ForeignKey` 和 :code:`PositiveIntegerField` 在 :code:`FlexCategory` 添加了 :code:`GenericForeignKey` ，然后在你想要类别化的模型上添加了 :code:`GenericRelation` 。
 
 在数据库上类似这样：
 
-.. code-block
-
-         Column      |         Type          |                             Modifiers
-    -----------------+-----------------------+--------------------------------------------------------------------
-     id              | integer               | not null default nextval('entities_flexcategory_id_seq'::regclass)
-     name            | character varying(50) | not null
-     object_id       | integer               | not null
-     content_type_id | integer               | not null
-
+    +-----------------+-----------------------+--------------------------------------------------------------------+
+    |     Column      |         Type          |                             Modifiers                              |
+    +=================+=======================+====================================================================+
+    | id              | integer               | not null default nextval('entities_flexcategory_id_seq'::regclass) |
+    +-----------------+-----------------------+--------------------------------------------------------------------+
+    | name            | character varying(50) | not null                                                           |
+    +-----------------+-----------------------+--------------------------------------------------------------------+
+    | object_id       | integer               | not null                                                           |
+    +-----------------+-----------------------+--------------------------------------------------------------------+
+    | content_type_id | integer               | not null                                                           |
+    +-----------------+-----------------------+--------------------------------------------------------------------+
 
 你可以这样类别化 :code:`Hero`。
 
